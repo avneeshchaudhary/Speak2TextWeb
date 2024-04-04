@@ -5,4 +5,29 @@ body {
   padding: 0;
 }
 
+/* Styles for phones */
+@media only screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  /* Example: reduce font sizes, adjust padding, etc. */
+  h1 {
+      font-size: 24px;
+  }
+}
 
+/* Styles for tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Adjustments for medium-sized screens */
+  /* Example: increase font sizes, adjust padding, etc. */
+  h1 {
+      font-size: 36px;
+  }
+}
+
+/* Styles for laptops and larger screens */
+@media only screen and (min-width: 1025px) {
+  /* Adjustments for larger screens */
+  /* Example: use larger font sizes, wider margins, etc. */
+  h1 {
+      font-size: 48px;
+  }
+}

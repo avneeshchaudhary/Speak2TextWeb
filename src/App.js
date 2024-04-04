@@ -49,6 +49,7 @@ function App() {
     <div className="container mt-6">
       <h1 className="title has-text-centered mb-6">SpeechSync Solutions</h1>
       <h2 className="subtitle has-text-centered mb-6">Assistive Communication Tool</h2>
+      <h3 className="subtitle has-text-centered mb-6">This web-based platform transcends device limitations, offering easy, download-free access and a seamless user experience. Users contribute to and refine our evolving voice recognition system, enhancing its precision. Embodying true accessibility, this tool integrates effortlessly into everyday tech use, championing inclusivity.</h3>
       <div className="control has-icons-left mb-6">
         <div className="select is-fullwidth">
           <select value={language} onChange={(e) => setLanguage(e.target.value)}>
@@ -93,7 +94,9 @@ function App() {
       >
         Download Transcript
       </button>
+      
     </div>
+    
   );
 }
 
