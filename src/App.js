@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import 'bulma/css/bulma.min.css';
+import './index.css'; // Import your custom CSS
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
@@ -46,13 +47,15 @@ function App() {
 
   return (
     <div className="container mt-6">
-      <h1 className="title has-text-centered mb-6">Speech to Text Converter</h1>
+      <h1 className="title has-text-centered mb-6">SpeechSync Solutions</h1>
+      <h2 className="subtitle has-text-centered mb-6">Assistive Communication Tool</h2>
       <div className="control has-icons-left mb-6">
         <div className="select is-fullwidth">
           <select value={language} onChange={(e) => setLanguage(e.target.value)}>
             <option value="en-US">English (US)</option>
             <option value="es-ES">Spanish (Spain)</option>
             <option value="de-DE">German (Germany)</option>
+            <option value="ar-LB">Arabic (Lebanon)</option>
             {/* Add other languages as needed */}
           </select>
           <span className="icon is-small is-left">
