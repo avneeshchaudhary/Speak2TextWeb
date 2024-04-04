@@ -57,6 +57,7 @@ function App() {
             <option value="es-ES">Spanish (Spain)</option>
             <option value="de-DE">German (Germany)</option>
             <option value="ar-LB">Arabic (Lebanon)</option>
+            <option value="hi-IN">Hindi (India)</option>
             {/* Add other languages as needed */}
           </select>
           <span className="icon is-small is-left">
