@@ -16,18 +16,18 @@ SpeechSync Solutions is a web-based platform designed to break down barriers in 
 
 To get started with SpeechSync Solutions, follow these simple steps:
 
-1. **Access the Platform:** Navigate to [SpeechSync Solutions](#) in your web browser.
+1. **Access the Platform:** Navigate to [SpeechSync Solutions](https://live-transcribe.netlify.app/) in your web browser.
 2. **Choose Your Language:** Select your preferred language from the dropdown menu.
 3. **Start Speaking:** Click on 'Start Listening' and begin speaking. Your speech will be transcribed in real-time.
 4. **Contribute:** Opt-in to contribute your voice data to help improve the system for everyone.
 
 ## Contributing
 
-We welcome contributions from the community to make SpeechSync Solutions even better. Whether it's adding new features, improving existing ones, or helping us refine our voice recognition technology, your contributions are valuable. Please see our [CONTRIBUTING.md](#) for more information on how to get involved.
+We welcome contributions from the community to make SpeechSync Solutions even better. Whether it's adding new features, improving existing ones, or helping us refine our voice recognition technology, your contributions are valuable.
 
 ## Feedback
 
-Your feedback is important to us. If you have any comments, suggestions, or encounter any issues, please don't hesitate to reach out via our [Issues](#) page.
+Your feedback is important to us. If you have any comments, suggestions, or encounter any issues, please don't hesitate to reach out.
 
 ## License
 
